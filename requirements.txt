@@ -1,0 +1,8 @@
+gradio==5.0.2
+fpdf==1.7.2
+matplotlib==3.8.4
+numpy==1.26.4
+pillow==10.3.0
+ultralytics==8.2.90
+opencv-contrib-python==4.9.0.80
+opencv-python==4.10.0.84
