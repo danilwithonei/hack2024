@@ -76,8 +76,8 @@ python3 -m pip install -r requirements.txt
 python3 main.py
 ```
 ## <div align="center">Скриншоты</div>
-![alt text](https://github.com/danilwithonei/hack2024/blob/main/images/screenshot_1.jpg?raw=true)
-![alt text](https://github.com/danilwithonei/hack2024/blob/main/images/screenshot_2.jpg?raw=true)
+![alt text](https://github.com/danilwithonei/hack2024/blob/main/images/screenshot_1.png?raw=true)\
+![alt text](https://github.com/danilwithonei/hack2024/blob/main/images/screenshot_2.png?raw=true)
 ## <div align="center">Лицензия</div>
 ```
 MIT License
