@@ -66,6 +66,12 @@ opencv-python            4.10.0.84
 
 ```
 
+Установка библиотек:
+```
+python3 -m pip install -r requirements.txt
+```
+
+
 ### Запуск 
 ```
 python3 main.py
