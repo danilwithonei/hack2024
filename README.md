@@ -45,7 +45,7 @@ title: Схема взаимосвязи программных компонен
 graph TD
 id1[[main.py]]
 id2[[detector.py]] --> id1
-id3[[fumctions.py]] --> id1
+id3[[functions.py]] --> id1
 
 A[Основная программа, соддержащаая в себе запуск всей системы, запуск интерфейса и инференс нейронных сетей] --> id1
 A1[Набор функций и методов для работы с отрисовкойи редактированием аннотаций] --> id2
@@ -75,6 +75,10 @@ python3 -m pip install -r requirements.txt
 ```
 python3 main.py
 ```
+### Обучение
+```
+```
+
 ## <div align="center">Скриншоты</div>
 ![alt text](https://github.com/danilwithonei/hack2024/blob/main/images/screenshot_1.png?raw=true)\
 ![alt text](https://github.com/danilwithonei/hack2024/blob/main/images/screenshot_2.png?raw=true)
