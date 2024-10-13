@@ -74,6 +74,7 @@ python3 -m pip install -r requirements.txt
 ```
 yolo train model=yolo11n.pt data=coco8.yaml epochs=100 imgsz=640
 ```
+[Сслыка на скачивание модели](https://disk.yandex.ru/d/mXzuGWWU0CEgjw)
 
 ### Запуск 
 ```
