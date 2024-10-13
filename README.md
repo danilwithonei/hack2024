@@ -70,13 +70,14 @@ opencv-python            4.10.0.84
 python3 -m pip install -r requirements.txt
 ```
 
+### Пример обучения
+```
+yolo train model=yolo11n.pt data=coco8.yaml epochs=100 imgsz=640
+```
 
 ### Запуск 
 ```
 python3 main.py
-```
-### Обучение
-```
 ```
 
 ## <div align="center">Скриншоты</div>
