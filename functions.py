@@ -96,12 +96,13 @@ def save_statistics_to_pdf(header, data, counts, average, pdf_file):
 
     pdf.cell(0, 10, txt="", ln=True)
 
-    col_widths = [25 for i in range(len(header))] 
+    col_widths = [20 for i in range(len(header))] 
     col_widths[1] = 55
     col_widths[-1] = 35
     pdf.set_fill_color(230, 230, 230)  
 
     # Добавление текстов по статистике
+    pdf.set_font('DejaVu', '', 10)
     for defect in counts.keys():
         text = "{}: Количество = {}, Среднее количество = {}".format(defect, 
                                                      str(round(counts[defect], 2)), 
@@ -116,7 +117,7 @@ def save_statistics_to_pdf(header, data, counts, average, pdf_file):
 
     pdf.ln()
     
-    pdf.set_font('DejaVu', '', 12)
+    
     for row in data:
         for i, element in enumerate(row):
             if i == 1:
